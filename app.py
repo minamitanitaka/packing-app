@@ -8,7 +8,7 @@ st.caption("時間差人員・フィルム/ケース混在に対応")
 # 入力
 total = st.number_input("件数", value=400)
 
-ratio = st.slider("フィルム割合", 0.0, 1.0, 0.7)
+ratio = st.slider("フィルム割合", 0.0, 1.0, 0.85)
 case_ratio = 1 - ratio
 
 st.write(f"ケース割合：{case_ratio:.1f}")
